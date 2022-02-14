@@ -1,16 +1,63 @@
 /* desktop first */
 
 @media screen and (max-width: 720px) {
+  body {
+    margin: 0%;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #lezioni h1 {
+    background-color: rgb(242, 242, 205);
+    padding-top: 0;
+  }
+  img {
+    height: 150px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
   .row {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 20px;
     background-color: rgb(242, 242, 205);
   }
 
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    background-color: rgb(242, 242, 205);
+  }
+
+  #steps .row h1 {
+    background-color: white;
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 100%;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    background-color: white;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+
+  #why .row img {
+    height: 100px;
   }
 }
