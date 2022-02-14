@@ -1,0 +1,16 @@
+/* desktop first */
+
+@media screen and (max-width: 720px) {
+  .row {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgb(242, 242, 205);
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 100%;
+  }
+}
